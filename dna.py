@@ -4,6 +4,7 @@
 import random
 nucleotides = ['A', 'G', 'C', 'T']
 length = 150 
+# This code below joins together a list of randomly chosen nucleotides into one string:
 sequence = ''.join([random.choice(nucleotides) for x in range(length)])
 # Our randomly generated DNA sequence is stored in the variable 'sequence'. 
 print("DNA Sequence (5'->3'):")
